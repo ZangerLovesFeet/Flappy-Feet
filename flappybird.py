@@ -59,7 +59,7 @@ class Bird(pygame.sprite.Sprite):
                 self.clicked = False
             
             self.counter += 1
-            flap_cooldown = 5
+            flap_cooldown = 1
 
             if self.counter > flap_cooldown:
                 self.counter = 0
